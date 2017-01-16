@@ -2,17 +2,146 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
+layout: main
+
 ---
-HALLO
 
 
-</div>
-{% for p in site.posts %}
-    <div class="cupcake">
 
-      <li><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+
+
+
+
+
+{% include features.html %}
+
+
+<section class="parallax parallax-3 nopadding-bottom" style="background-image: url(&quot;assets/images/cbpwall-min.jpg&quot;); background-position: 50% 59px;">
+        <div class="overlay dark-4"><!-- dark overlay [0 to 9 opacity] --></div>
+
+        <div class="container">
+
+          <div class="text-center">
+            <h3 class="nomargin">CraftBeerPi Interface</h3>
+            <p class="font-lato weight-300 lead nomargin-top">Brewing beer was never that easy</p>
+          </div>
+
+
+          <div class="margin-top-80 text-center">
+            <img class="img-responsive wow fadeInUp animated" data-wow-delay="0.4s" src="assets/images/cbpbrowsers.png" alt="" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+          </div>
+        </div>
+
+      </section>
+
+
+      <section id="steps">
+      				<div class="container">
+
+                <header class="text-center margin-bottom-60">
+      						<h2>Control the whole brewing and fermentation process</h2>
+      						<p class="lead font-lato">Each step can be automated with CraftBeerPi</p>
+      						<hr />
+      					</header>
+
+                <ul class="process-steps nav nav-justified">
+                	<li >
+                		<a href="#"><i class="fa fa-line-chart"></i></a>
+                		<h5>Mashing</h5>
+                	</li>
+                	<li>
+                		<a href="#"><i class="fa fa-filter "></i></a>
+                		<h5>Lautering</h5>
+                	</li>
+                		<li>
+                		<a href="#"><i class="fa fa-fire"></i></a>
+                		<h5>Boiling</h5>
+                	</li>
+                  	<li>
+                		<a href="#"><i class="fa fa-refresh"></i></a>
+                		<h5>Whirlpool</h5>
+                	</li>
+                  	<li>
+                		<a href="#"><i class="fa fa fa-snowflake-o"></i></a>
+                		<h5>Fermentation</h5>
+                	</li>
+                  <li class="active">
+                  <a href="#"><i class="fa fa fa-smile-o"></i></a>
+                  <h5>Enjoy</h5>
+                </li>
+                </ul>
+              </div>
+      </section>
+
+
+<section class="parallax parallax-2 padding-xxs" style="background-image: url('assets/images/cbpwall-min.jpg');">
+  <div class="overlay dark-4"><!-- dark overlay [0 to 9 opacity] --></div>
+
+  <div class="container">
+
+    <div class="row countTo-md text-center">
+
+      <div class="col-xs-4 col-sm-4">
+        <i class="fa fa-users"></i>
+        <span class="countTo" data-speed="3000">850</span>
+        <h5>HAPPY BREWERS</h5>
+      </div>
+
+      <div class="col-xs-4 col-sm-4">
+        <i class="fa fa-globe"></i>
+        <span class="countTo" data-speed="3000">41</span>
+        <h5>COUNTRIES</h5>
+      </div>
+
+      <div class="col-xs-4 col-sm-4">
+        <i class="fa fa-facebook"></i>
+        <span class="countTo" data-speed="3000">1250</span>
+        <h5>FACEBOOK</h5>
+      </div>
 
     </div>
-  {% endfor %}
-</div>
+
+  </div>
+</section>
+
+
+
+
+<div class="alert alert-transparent bordered-bottom nomargin">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-9 col-sm-12"><!-- left text -->
+							<h3><span>Support with your <strong>Donation</strong></span> </h3>
+							<p class="font-lato weight-300 size-20 nomargin-bottom">
+								In general the software is free. If you like the software I would be very happy about a donation.
+							</p>
+						</div><!-- /left text -->
+
+
+						<div class="col-md-3 col-sm-12 text-right"><!-- right btn -->
+							<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2X9KR98KJ8YZQ" rel="nofollow" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-paypal"></i>DONATE NOW</a>
+						</div><!-- /right btn -->
+
+					</div>
+
+				</div>
+			</div>
+
+<section class="alternate">
+				<div class="container">
+
+					<div class="text-center">
+						<h2 class="wow fadeInUp nomargin" data-wow-delay="0.3s">DOES CRAFTBEERPI CONVINCED YOU?</h2>
+
+						<p class="lead font-lato size-30 wow fadeInUp margin-bottom-60" data-wow-delay="0.5s">Build your own autoated brewery now</p>
+
+						<div class="margin-top-30">
+							<a href="{{site.baseurl}}/installation" class="btn btn-3d btn-lg wow fadeInUp btn-teal" data-wow-delay="0.7"><i class="glyphicon glyphicon-th-large"></i>Install Now</a>
+
+						</div>
+					</div>
+
+				</div>
+			</section>

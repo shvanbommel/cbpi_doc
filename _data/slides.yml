@@ -1,0 +1,17 @@
+- title: WELCOME TO CRAFTBEERPI
+  subheadline: The Raspberry Pi based brewing and fermentation controller
+  subheadline2: BREWING / FERMENTATION
+  image: assets/images/cbp1-min.jpg
+  thumb: assets/images/cbp1-thumb.jpg
+  thumbtitle: WELCOME
+  action: INSTALL NOW
+  actionurl: /installation
+
+- title: MODERN DESGIN
+  subheadline: Access the Web Interface from Raspberry Pi Touchscreen, Mobile Phone, Tablet or Desktop
+  subheadline2: RESPONSIVE
+  image: assets/images/cbp2-min.jpg
+  thumb: assets/images/cbp2-thumb.jpg
+  thumbtitle: MODRN
+  action: WATH IN ACTION
+  actionurl: /installation

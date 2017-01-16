@@ -24,7 +24,7 @@ baseurl: /craftbeerpi_doc
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  manuel83
-
+host: 0.0.0.0
 # Build settings
 markdown: kramdown
 theme: minima

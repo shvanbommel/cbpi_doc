@@ -1,0 +1,19 @@
+---
+
+layout: blank
+permalink: /blog/
+title: Blog
+---
+
+
+{% for post in site.posts %}
+  <p>
+			<h2 class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br/>
+      <small>{{ post.date | date: "%b %d, %Y" }}</small></h2>
+
+
+		{{ post.description }}
+		<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+
+	</p>
+{% endfor %}
