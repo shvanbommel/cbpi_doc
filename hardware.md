@@ -51,7 +51,9 @@ Fist question you have to answer is how you would like to connect your actors li
 
 <img src="{{ site.baseurl }}/assets/images/wiring.png" class="img-responsive" alt="Wiring">
 
-> SAFTY WARNING: Main Voltage kills. This has to be constructed only by skilled people with knowledge of safety requirements. Leaf the system never unattended
+> SAFETY WARNING: Mains Voltage kills. This has to be constructed only by skilled people with knowledge of safety requirements. Never leave the system unattended.
+
+
 
 ## Temperature Sensor
 CraftBeerPi is supporting DS18B20 temperature sensors. Theses sensors are connected via a 1-Wire bus. The bus can handle up to 10 temperature sensors.
