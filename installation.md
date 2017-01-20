@@ -16,7 +16,7 @@ Here you will find the guide to install Raspberry Pi Operating System.
 
 <a href="https://www.raspberrypi.org/help/noobs-setup/" class="btn btn-3d btn-lg wow fadeInUp btn-red animated" data-wow-delay="0.9" style="visibility: visible; animation-name: fadeInUp;">Installation of Raspberry OS <i class="fa fa-angle-right"></i></a>
 
-<a href="https://www.raspberrypi.org/help/noobs-setup/" class="btn btn-3d btn-lg wow fadeInUp btn-red animated" data-wow-delay="0.9" style="visibility: visible; animation-name: fadeInUp;">CBPi on GitHub <i class="fa fa-github"></i></a>
+<a href="https://github.com/manuel83/craftbeerpi" class="btn btn-3d btn-lg wow fadeInUp btn-red animated" data-wow-delay="0.9" style="visibility: visible; animation-name: fadeInUp;">CBPi on GitHub <i class="fa fa-github"></i></a>
 
 # Installation Video
 
